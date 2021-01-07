@@ -1,0 +1,20 @@
+{
+  "name": "febry-AI",
+  "version": "1.0.0",
+  "description": "Face mask detection with expressJS",
+  "main": "index.js",
+  "author": "Febri",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "dependencies": {
+    "@sashido/teachablemachine-node": "^1.2.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}
